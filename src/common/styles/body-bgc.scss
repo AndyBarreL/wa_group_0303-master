@@ -1,0 +1,128 @@
+$sizeMOB: 767px;
+$sizebanners: 15%;
+.body-bgc {
+  min-height: 100%;
+  height: 100%;
+  background-image: url("../../assets/hw8-images/images/pattern.jpg");
+}
+
+.position-form {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+
+  @media screen and (max-width: 768px) {
+    position: static;
+    top: initial;
+    left: initial;
+    transform: translate(0, 0);
+  }
+}
+
+.usr-form {
+  color: white;
+  padding: 0.5rem;
+  margin: 20px 0px 20px 0px;
+}
+
+.banners {
+  display: block;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.form {
+  flex-basis: $sizebanners;
+  margin: 0.5rem;
+  height: 150px;
+  position: relative;
+
+  @media screen and (max-width: 575px) {
+    flex-basis: 45.999998%;
+  }
+}
+
+.form2 {
+  flex-basis: $sizebanners*2.1;
+  margin: 0.5rem;
+  height: 150px;
+  position: relative;
+
+  @media screen and (max-width: 575px) {
+    flex-basis: 95.999998%;
+  }
+}
+
+.form3 {
+  display: flex;
+  flex-basis: $sizebanners*3.22;
+  margin: 0.5rem;
+  height: 150px;
+  position: relative;
+
+  @media screen and (max-width: 575px) {
+    flex-basis: 95.999998%;
+  }
+}
+
+.form4 {
+  flex-basis: $sizebanners;
+  margin: 0.5rem;
+  height: 150px;
+  position: relative;
+
+  @media screen and (max-width: 575px) {
+    flex-basis: 95.999998%;
+  }
+}
+
+.img-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content-form {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+}
+
+.blog {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  flex: 0 0 30%;
+  background-image: url("../../assets/hw8-images/images/blog-image.png");
+}
+
+.blog-description {
+  flex: 0 0 70%;
+  padding: 0.5rem;
+}
+
+.blg-content {
+  color: white;
+  padding: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
